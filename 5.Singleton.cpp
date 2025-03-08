@@ -55,7 +55,7 @@ public:
       }
     }
     return *instance;
-  }
+  } 
 };
 // 初始化为null
 SingletonLazyThreadSafe *SingletonLazyThreadSafe::instance = nullptr;

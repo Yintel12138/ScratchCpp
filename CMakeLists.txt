@@ -8,4 +8,6 @@ add_executable(2.MySharedptr 2.MySharedptr.cpp)
 add_executable(3.ProduceAndConsumer 3.ProduceAndConsumer.cpp)
 add_executable(4.LRUCache 4.LRUCache.cpp)
 add_executable(5.Singleton 5.Singleton.cpp)
+add_executable(6.ThreadPool 6.ThreadPool.cpp)
+
 # 配置运行的文件
