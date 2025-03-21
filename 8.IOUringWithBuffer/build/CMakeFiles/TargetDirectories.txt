@@ -1,0 +1,7 @@
+/home/cloudos/cpp_dir/Jobhunting/scratchCpp/8.IOUringWithBuffer/build/CMakeFiles/io_uring_buffer.dir
+/home/cloudos/cpp_dir/Jobhunting/scratchCpp/8.IOUringWithBuffer/build/CMakeFiles/edit_cache.dir
+/home/cloudos/cpp_dir/Jobhunting/scratchCpp/8.IOUringWithBuffer/build/CMakeFiles/rebuild_cache.dir
+/home/cloudos/cpp_dir/Jobhunting/scratchCpp/8.IOUringWithBuffer/build/CMakeFiles/list_install_components.dir
+/home/cloudos/cpp_dir/Jobhunting/scratchCpp/8.IOUringWithBuffer/build/CMakeFiles/install.dir
+/home/cloudos/cpp_dir/Jobhunting/scratchCpp/8.IOUringWithBuffer/build/CMakeFiles/install/local.dir
+/home/cloudos/cpp_dir/Jobhunting/scratchCpp/8.IOUringWithBuffer/build/CMakeFiles/install/strip.dir

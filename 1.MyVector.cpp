@@ -2,6 +2,7 @@
 #include <algorithm>
 #include <cstddef>
 #include <iostream>
+#include <string>
 #include <vector>
 template <typename T> class myVector {
 private:
@@ -21,7 +22,7 @@ public:
   // 拷贝构造函数
   myVector(const myVector &v) : _capacity(v._capacity), _size(v._size) {
     _data = new T[_capacity];
-    std::move(v._data, v._data + _size, _data);
+    std::copy(v._data, v._data + _size, _data);
   }
   // 赋值运算符
   myVector &operator=(const myVector &v) {
@@ -32,7 +33,7 @@ public:
     _size = v._size;
     delete[] _data;
     _data = new T[_capacity];
-    std::move(v._data, v._data + _size, _data);
+    std::copy(v._data, v._data + _size, _data);
     return *this;
   }
   // 移动构造函数
@@ -57,9 +58,10 @@ public:
     v._size = 0;
     return *this;
   }
+
   // 析构函数
   ~myVector() { delete[] _data; }
-
+  
   // 扩容
   void unsafeResize(int newCapacity) {
     T *newData = new T[newCapacity];

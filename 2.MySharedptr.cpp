@@ -25,7 +25,8 @@ public:
 
   MySharedptr(const MySharedptr &ptr) : _ptr(ptr._ptr), _count(ptr._count) {
     if (_ptr != nullptr) {
-      (*_count)++;
+      // (*_count)++;
+      _count->fetch_add(1);
     }
   }
 

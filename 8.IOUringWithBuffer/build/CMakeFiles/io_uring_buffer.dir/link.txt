@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -Wextra -pedantic -g -g -O0 CMakeFiles/io_uring_buffer.dir/Buffer.cpp.o CMakeFiles/io_uring_buffer.dir/main.cpp.o CMakeFiles/io_uring_buffer.dir/IOUringHandler.cpp.o -o io_uring_buffer  -luring 
